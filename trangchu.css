@@ -123,6 +123,11 @@ nav .fa-bars{
     .nav-links ul{
         padding: 20px;
     }
+    .nav-links ul li a:hover{
+        color:  #003056;
+        size: 20px;
+       
+    }
     .nav-links i {
         padding: 20px;
     }
@@ -131,3 +136,30 @@ nav .fa-bars{
         width:50px ; height: auto;
     }
 } 
+.Semi_Footer {
+    width: 100%;
+    text-align: center;
+    padding: 300px 0;
+    background-color:rgba(219,222,238,1);
+    
+}
+.Semi_Footer h6 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font: 1em sans-serif;
+}
+.Semi_Footer h1 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font: 2.5em sans-serif;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.Semi_Footer button {
+    padding: 10px;
+    border-radius: 20px;
+    color: aliceblue;
+    background: linear-gradient(#003056,#028090);
+}
